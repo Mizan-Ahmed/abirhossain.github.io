@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+section#designProcess, #userFlow, 
+#UserPersona {
+    margin: 10% 0 5% 0 !important;
+}
+.imgLogo {
+    background: #0F7986;
+}
+/* design content design here  */
+h1.designTitle i, .onBoardingTitle i,
+.singInTitle i, .homeScreenTitle i {
+    color: #0F7986;
+}
+.deisgnCntItem .deisgnNumber {
+    color: #D6E6E8;
+}
+.deisgnSubject {
+    border: 3px solid #D6E6E8;
+}
+.HomeScreen, .allScreen {
+    background: #0F7986;
+}
+.UserPersonaTitle, .WireframesTitle,
+.styleGuideTitle, .ScreenPreviewTitle,
+.otherScreensTitle {
+    color: #0D223A;
+}
+.aboutPerson {
+    background: #EDF3F3;
+}
+.colorBody {
+    background: #0F7986;
+}
+.vividOrange {
+    background: #F4F6F9 !important;
+}
+.colorBody.darkyellow {
+    background: #22263A;
+}
+.colorBody.EchoBlue {
+    background: #999BA1;
+}
+.colorBody.NightRider {
+    background: #22263A;
+}
+p.styleSampleTxt {
+    font-family: 'Libre Baskerville', serif !important;
+}
+
+
+

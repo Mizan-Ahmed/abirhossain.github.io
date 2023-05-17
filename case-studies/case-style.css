@@ -1,0 +1,655 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); * {
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 1420px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+
+section#designProcess, #userFlow, 
+#UserPersona {
+    overflow: hidden;
+    margin: 10% 0 5% 0 !important;
+}
+
+h1 {
+    font-family: Poppins, sans-serif;
+    font-size: 48px !important;
+    font-weight: 500 !important;
+}
+
+h2 {
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+    font-size: 38px !important;
+}
+
+p {
+    color: rgb(153, 153, 153);
+    font-family: Poppins, sans-serif !important;
+}
+
+.deisgnContent, .userContent, .styleGuideWrapper,
+.UserPersonaWrapper, .WireframesWrapper, 
+.ScreenPreviewWrapper, .singINWrapper,
+.screenWrapper, .otherScreensWrapper,
+.otherScreensWrapper {
+    overflow: hidden;
+    display: block;
+}
+
+
+#topHeader {
+    overflow: hidden;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(17, 18, 20);
+    transition: all 0.3s ease 0s;
+}
+
+.brand-logo img {
+    width: 40px;
+}
+
+.nav-link {
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    color: rgb(169, 169, 170) !important;
+}
+
+section#cryptoland {
+    position: relative;
+    margin-bottom: 80px;
+    background: linear-gradient(    to right,    #ffffff00 20%,    #ffffff00 20% 40%,    #ffffff00 40% 60%,    #ffffff00 60% 80%,    #fef4e8 80%  );
+}
+
+.cryptolandWrapper {
+    overflow: hidden;
+}
+
+.cryptoContent {
+    background: rgb(254, 244, 232);
+    overflow: hidden;
+    border-bottom-left-radius: 5%;
+    height: 102vh;
+}
+
+.cryptoRotateTxt p {
+    height: 200px;
+    font-size: 25px;
+    color: rgb(200, 200, 200);
+    transform: rotate(-90deg);
+}
+
+.cryptoDetails {
+    overflow: hidden;
+    margin: 125px 0px 0px 60px;
+}
+
+.cryptoLogoTitle {
+    overflow: hidden;
+    margin-bottom: 48px;
+}
+
+.cryptoLogoTitle img.logo {
+    width: 100px;
+    height: 100px;
+    padding: 5px 5px 10px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    float: left;
+    margin-right: 50px;
+}
+
+.cryptoLogoTitle h1 {
+    font-size: 47px !important;
+    font-family: Poppins;
+    line-height: 95px;
+}
+
+.cryptoDetails p {
+    font-size: 25px;
+    color: rgb(97, 97, 97);
+    letter-spacing: 1.5px;
+    line-height: 44px;
+    font-weight: 500;
+}
+
+img.detailsTitleImg {
+    float: right;
+    margin-right: 10px;
+    margin-top: 10%;
+}
+
+.cryptoImage {
+    overflow: hidden;
+}
+
+img.detailsTitleImg {
+    position: absolute;
+    top: 35%;
+    left: 39%;
+}
+
+.cryptoImage img {
+    padding: 0px 30px;
+    margin-bottom: 45px;
+}
+
+.img1 {
+    margin-top: -335px;
+}
+
+img.detailsImg.mt-5 {
+    position: absolute;
+}
+
+img.detailsImg.lastImg {
+    position: absolute;
+    top: 78%;
+}
+/* 
+.cryptoImage .detailsImg1 {
+    margin-top: -84%;
+}
+
+img.detailsImg3 {
+    margin-top: -45% !important;
+}
+
+img.detailsImg4 {
+    position: absolute;
+    top: 74%;
+}
+
+img.detailsImg2, .detailsImg4 {
+    padding-right: 0 !important;
+} */
+
+
+/* overview section deisgn here */
+section#overview\ mb-5 {
+    margin: 15% 0% 10% 0%;
+}
+
+.overviewWrapper {
+    overflow: hidden;
+    padding: 10px 0px;
+    text-align: center !important;
+}
+
+.overviewContent {
+    overflow: hidden;
+}
+/* .circle4 {
+    width: 30rem;
+    height: 32rem;
+    border: 3px solid;
+    border-radius: 86%;
+    position: absolute;
+    right: 0px;
+} */
+.imgLogo {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    background: rgb(247, 147, 27);
+    border-radius: 20px;
+}
+
+img.Ologo {
+    text-align: center;
+    padding: 15px 15px;
+}
+
+p.overviewDec {
+    line-height: 175%;
+    padding: 0 17%;
+}
+
+
+/* design content design here  */
+
+h1.designTitle i, .onBoardingTitle i,
+.singInTitle i, .homeScreenTitle i {
+    font-size: 35px;
+    color: rgb(247, 147, 27);
+}
+
+.DeisgnItem {
+    overflow: hidden;
+    width: 259px;
+    float: left;
+    padding: 0 15px;
+}
+
+.DeisgnItem:nth-of-type(1) {
+    padding-left: 0;
+}
+
+.DeisgnItem:last-child {
+    padding-right: 0;
+}
+
+.deisgnSubject {
+    overflow: hidden;
+    border: 3px solid #CDE4FF;
+    border-radius: 20px;
+    padding: 14px 25px;
+}
+
+.deisgnCntItem img {
+    width: 35px;
+    padding: 15px 0;
+}
+
+.deisgnCntItem .deisgnNumber {
+    float: right;
+    color: #FEEFDD;
+    font-size: 75px;
+    line-height: 70px;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+.deisgnSubject h2 {
+    font-size: 18px !important;
+    font-weight: 500;
+    font-family: Poppins;
+    line-height: 35px;
+    margin-bottom: 0;
+}
+
+
+
+
+/* user flow content design  */
+
+.userAboutTxt {
+    overflow: hidden;
+    display: block;
+}
+
+.userFlowTitle  {
+    float: right;
+}
+
+.userScreen {
+    overflow: hidden;
+}
+
+.HomeScreen, .allScreen {
+    width: 210px;
+    height: 210px;
+    background: #f7931b;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.HomeScreen .HomeScreenTxt, .allScreenTxt {
+    color: #fff;
+    font-size: 28px !important;
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+    line-height: 40px;
+}
+
+.userScreenDec {
+    overflow: hidden;
+    float: right;
+}
+
+p.userDecTxt {
+    font-size: 26px;
+    text-align: end;
+}
+
+/* User Persona content deisgn here  */
+
+.UserPersonaTitle, .WireframesTitle,
+.styleGuideTitle, .ScreenPreviewTitle,
+.otherScreensTitle {
+    text-align: center;
+}
+
+.overviewDec, .userDecTxt , 
+.UserPersonaDec, .WireframesDec,
+.styleGuideDec, .ScreenPreviewDec,
+.onBoardingDecTxt, .singInDecTxt,
+.homeScreenDecTxt, .otherScreensDec {
+    font-size: 25px;
+    line-height: 45px;
+    font-weight: 500;
+    padding: 0px 3%;
+    text-align: center;
+}
+
+.aboutPerson {
+    overflow: hidden;
+    background: #feefdd8a;
+    border-radius: 20px;
+}
+
+.aboutContent {
+    overflow: hidden;
+}
+
+.aboutHead {
+    overflow: hidden;
+    width: 100% !important;
+}
+
+.aboutImg {
+    float: left;
+    width: 225px;
+}
+
+.aboutImg img {
+    max-width: 100%;
+}
+
+.aboutTitle {
+    overflow: hidden;
+    float: left;
+    width: 55%;
+}
+
+.aboutTitle h3, .goalsTitle h3 {
+    font-size: 23px;
+    line-height: 40px;
+}
+
+.aboutTitle h3 span {
+    color: #999;
+}
+
+.personAboutDec {
+    overflow: hidden;
+}
+
+.personAboutDec .aboutDecTxt, 
+.goalsItem, .behaviorsItem {
+    font-size: 21px;
+    color: #999;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.goalsTitle, .behaviorsTitle h3 {
+    color: #3894FF;
+}
+
+.goalsList .goalsItem::before, .behaviorsItem::before {
+    content: "\2022";
+    color: #3894FF;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1.5em;
+    margin-right: 0.5rem;
+  }
+/* screen image deisgn  */
+.imageWrpper {
+    text-align: center;
+    overflow: hidden;
+    margin: auto;
+    background: #F6F7F9;
+    padding: 10% 0;
+}
+
+.iamgeContent {
+    float: left;
+    width: 374px;
+    padding: 0 2%;
+}
+
+.iamgeContent.btmDiv {
+    padding-top: 110px !important;
+}
+
+.styleGuideContent {
+    overflow: hidden;
+}
+
+.styleContent{
+    overflow: hidden;
+}
+
+.colorHead {
+    overflow: hidden;
+}
+
+.primaryColor {
+    overflow: hidden;
+}
+
+.colorHead {
+    font-size: 25px;
+    color: #C4C4C4;
+    font-weight: 300 !important;
+    letter-spacing: 2px;
+}
+
+
+.colorPalate {
+    overflow: hidden;
+}
+
+.colorBody {
+    width: 165px;
+    height: 135px;
+    border-radius: 20px;
+    background: #3894FF;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 1px 1px 16px #ddd;
+}
+
+.colorTitle {
+    background: #ffffff;
+    font-size: 17px;
+    color: #999;
+    line-height: 33px;
+    text-align: center;
+    width: 165px;
+    margin-top: -32px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.vividOrange {
+    background: #f7931a !important;
+}
+
+.colorBody.darkyellow {
+    background: #FFCC3F;
+}
+
+.colorBody.EchoBlue {
+    background: #B6B9BF;
+}
+
+.colorBody.NightRider {
+    background: #323232;
+}
+
+.styleGuideText {
+    overflow: hidden;
+    float: right;
+}
+
+h4.styleTitle {
+    font-size: 25px;
+    color: #C4C4C4;
+    font-weight: 400;
+    letter-spacing: 3px;
+    float: right;
+}
+
+
+h2.styleFeijoa {
+    font-size: 50px !important;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+/* 
+p.styleSampleTxt {
+    letter-spacing: 20px;
+    font-size: 37px;
+} */
+
+.styleGuideText {
+    float: right;
+}
+
+h4.styleTitle {
+    text-align: end;
+}
+
+h2.styleFeijoa.py-5 {
+    text-align: end;
+    letter-spacing: 10px;
+    margin-right: -10px;
+}
+
+p.styleSampleTxt {
+    text-align: end;
+    font-size: 37px;
+    font-weight: 500;
+    letter-spacing: 20px;
+    margin-right: -20px;
+}
+
+.onBoarding {
+    overflow: hidden;
+    margin-top: 80px;
+}
+
+.onBoardingDec, .singInDec, .homeScreenDec {
+    background: #F6F7F9;
+    width: 85%;
+    border-radius: 20px;
+}
+
+
+p.onBoardingDecTxt, .singInDecTxt{
+    padding: 0;
+    text-align: left;
+}
+
+section#ScreenPreview\ my-5 {
+    overflow: hidden;
+}
+
+.ScreenPreviewContent {
+    overflow: hidden;
+}
+
+.priviewContent {
+    overflow: hidden;
+}
+
+.OnboardingImg {
+    text-align: center;
+}
+
+img.onBoardImg {
+    width: 315px;
+}
+
+.homeScreenImg {
+    text-align: center;
+}
+
+
+/* Footer Section Design Start Here */
+
+.socialMedia {
+    z-index: 888;
+    display: flex;
+    color: #79869f;
+    align-items: end;
+    margin-top: 240px;
+    flex-direction: column;
+}
+
+i.fa-brands.fa-dribbble.mb-4 {
+    padding: 11px 11px 11px 10px;
+    font-size: 21px;
+    background: #2A2B2B;
+    color: #79869F;
+}
+
+
+i.fa-brands.fa-dribbble.footer.text-center, .fa-linkedin-in, 
+.fa-instagram, .fa-behance, .fa-dribbble {
+    background: #2A2B2B;
+    width: 42px;
+    height: 42px;
+    color: #79869F;
+    font-size: 20px;
+    padding: 12px 12px 12px 12px;
+    border-radius: 30px;
+    
+}
+
+.fa-behance:hover, .fa-linkedin-in:hover, 
+.fa-instagram:hover, .fa-behance:hover,
+.fa-instagram:hover, .fa-dribbble:hover, 
+.fa-behance:hover{
+    background: rgb(255 89 90);
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+i.fa-brands.fa-dribbble.mb-4:hover {
+    background: rgb(255 89 90);
+    color: #fff;
+    transition: 0.3s ease;
+}
+.footerWrrapper {
+    overflow: hidden;
+    background: #0C0C0E;
+    padding: 140px 0 80px 0;
+}
+
+a.text-center.footerLogo img {
+    width: 46px;
+}
+
+.FooterMedia {
+    z-index: 888;
+    display: flex;
+    color: #ffff;
+    justify-content: center;
+}
+
+.footerNav {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.Footerlink {
+    font-size: 18px;
+    color: #79869F !important;
+    font-family: "Rubik", sans-serif !important;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+}
+
+/* Footer Section Design End Here */
